@@ -1,0 +1,17 @@
+extends ./layout
+
+form(action=actionUrl, method='POST')
+      label.h3 First Name
+      span.spce
+      input(type='text', placeholder='First Name', name='firstName', id='firstName', value=firstName)
+      br
+
+      label.h3 Last Name
+      span.spce
+      input(type='text', placeholder='Last Name', name='lastName', id='lastName', value=lastName)
+      br
+
+      if id
+        input(type='text', style='display: none;', name='id', value=id)
+
+      button.(type='submit') Save
