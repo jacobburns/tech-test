@@ -32,4 +32,8 @@ tr:nth-child(even) td { background: #F1F1F1; }
 
 tr:nth-child(odd) td { background: #FEFEFE; }  
 
-tr td:hover { background: #666; color: #FFF; }  
+tr td:hover { background: #666; color: #FFF; }
+
+.button {
+    padding-right: 25px;
+}

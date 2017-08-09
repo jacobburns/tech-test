@@ -31,3 +31,6 @@ tr:nth-child(odd) td {
 tr td:hover {
   background: #666;
   color: #FFF; }
+
+.button {
+  padding-right: 25px; }
