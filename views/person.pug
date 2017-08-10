@@ -6,13 +6,13 @@ block content
     h2=message
 
   form(action=actionUrl, method='POST')
-    label.h3 First Name
+    label.h3.name First Name
     input(type='text', placeholder='First Name', name='firstName', id='firstName', value=firstName)
 
-    label.h3 Last Name
+    label.h3.name Last Name
     input(type='text', placeholder='Last Name', name='lastName', id='lastName', value=lastName)
 
     if id
       input(type='text', style='display: none;', name='id', value=id)
 
-    button(type='submit') Save
+    button.button.save(type='submit') Save

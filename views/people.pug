@@ -4,7 +4,8 @@ block content
 
   ul
     for person in people
-      li.h4 #{person.firstName + ' ' + person.lastName}
-      a.button(href="/people/" + person.id) Update
-      a.button(href="/people/delete/" + person.id) Delete
+      div.row
+        li.h4.name #{person.firstName + ' ' + person.lastName}
+        a.button(href="/people/" + person.id) Update
+        a.button.delete(href="/people/delete/" + person.id) Delete
       

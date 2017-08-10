@@ -1,39 +1,75 @@
-$badass: #bada55;
+$green: #bada55;
 body { 
-  width: 750px;
-  background-color: $badass; 
+  width: 600px;
+  background-color: $green; 
 }
-
-table {  
-    color: #333;
-    font-family: Helvetica;
-    width: 70%; 
-    border-collapse: collapse;
-    border-spacing: 0; 
-}
-
-td, th {  
-    border: 1px solid transparent;
-    height: 30px; 
-    transition: all 0.3s;
-}
-
-th {  
-    background: #DFDFDF;
-    font-weight: bold;
-}
-
-td {  
-    background: #FAFAFA;
-    text-align: center;
-}
-
-tr:nth-child(even) td { background: #F1F1F1; }   
-
-tr:nth-child(odd) td { background: #FEFEFE; }  
-
-tr td:hover { background: #666; color: #FFF; }
 
 .button {
-    padding-right: 25px;
+    background: #3498db;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 28px;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #3cb0fd;
+}
+
+.delete:hover {
+    background: #ff9263;
+}
+
+.new:hover {
+    background: green;
+}
+
+.name {
+    font-size: 21px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 200px;
+}
+
+.container {
+    background-color: #e8ffa3;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    margin-left: 30px;
+}
+
+.title {
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.row {
+    width: 100%;
+}
+
+.save {
+    margin-top: 15px;
+    margin-right: 200px;
+}
+
+input {
+    padding: 12px 15px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
 }

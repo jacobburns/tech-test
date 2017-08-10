@@ -4,8 +4,12 @@ html
       include ./../public/css/main.css
   body
     title People Application
+    h2.title People Application
 
-    a.button(href="/people/") List of People
-    a.button(href='/people/new') New Person
+    div.menu
+      a.button(href="/people/") List of People
+      a.button.new(href='/people/new') New Person
 
-    block content
+   
+    div.container
+      block content
