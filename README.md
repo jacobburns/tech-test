@@ -1,6 +1,6 @@
 # tech-test
 Sky Bet tech test 
 
-# npm i
+Install dependencies: npm i
 
-# npm run dev
+Run server.js: npm run dev
