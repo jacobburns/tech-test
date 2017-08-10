@@ -39,7 +39,7 @@ class PeopleService {
     }
 
     create (data) {
-    let people = this.read({}).sort((a, b) => a.id > b.id)
+    let people = this.read({}).sort((a, b) => a.id > b.id) //returns people ordered by id
 
     if (people.length) {
         data.id = people[people.length - 1].id++
